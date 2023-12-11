@@ -49,7 +49,7 @@ plt.show()
 
 Output:
 
-![Clusters using spectral clustering on graph dataset](image.png)
+![Clusters using spectral clustering on graph dataset](image-1.png)
 
 ## Testing 
 Run tests using pytest:
@@ -60,5 +60,51 @@ pytest
 
 ## Contributing
 Contributions are welcome! See CONTRIBUTING.md for guidelines.
+
+## Developer Guide
+
+To contribute to the project, follow these steps to set up a local development environment:
+
+1. **Clone the Repository**:
+```bash
+git clone https://github.com/susheelg1197/machine-learning-with-graphs-lib.git
+cd machine-learning-with-graphs-lib
+
+```
+
+
+2. **Create and Activate a Virtual Environment** (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate # On Windows use venv\Scripts\activate
+```
+
+3. **Install Dependencies**:
+```bash
+pip install -r requirements.txt
+```
+
+
+4. **Make Changes**:
+- Implement new features or fix bugs.
+- Write tests to ensure functionality.
+
+5. **Testing**:
+Add test cases within testing folder
+```
+pytest
+```
+
+6. **Commit Your Changes**:
+```bash
+git add .
+git commit -m "Your detailed description of changes"
+
+```
+
+
+7. **Push to Your Fork and Create a Pull Request**.
+
+Please ensure your code adheres to the project's coding standards and include tests for new features.
 
 
