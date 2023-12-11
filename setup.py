@@ -1,8 +1,12 @@
 from setuptools import setup, find_packages
 
+with open('requirements.txt', encoding='utf-16') as f:
+    required = f.read().splitlines()
+
+
 setup(
     name='machine_learning_with_graph',
-    version='0.0.1',
+    version='0.0.2',
     author='Susheel Gounder and Parikshit Urs',
     author_email='susheelg1107@gmail.com',
     description='A comprehensive package for graph-based machine learning algorithms.',
@@ -11,14 +15,7 @@ setup(
     url='https://github.com/yourusername/machine-learning-with-graph',
     license='MIT',
     packages=find_packages(),
-    install_requires=[
-        'numpy',
-        'scipy',
-        'networkx',
-        'torch',  
-        'dgl',    
-        # Add other dependencies as needed
-    ],
+    install_requires=required,
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
