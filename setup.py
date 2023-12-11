@@ -6,7 +6,7 @@ with open('requirements.txt', encoding='utf-16') as f:
 
 setup(
     name='machine_learning_with_graph',
-    version='0.0.2',
+    version='0.0.3',
     author='Susheel Gounder and Parikshit Urs',
     author_email='susheelg1107@gmail.com',
     description='A comprehensive package for graph-based machine learning algorithms.',
