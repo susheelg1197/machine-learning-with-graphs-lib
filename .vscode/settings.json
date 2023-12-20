@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./ml_wg/gnn"
+        "./ml_wg/gnn",
+        "./ml_wg/clustering"
     ]
 }
