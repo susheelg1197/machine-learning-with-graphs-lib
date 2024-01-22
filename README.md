@@ -90,10 +90,15 @@ pip install -r requirements.txt
 - Write tests to ensure functionality.
 
 5. **Testing**:
-Add test cases within testing folder
+Add test cases within the testing folder
 ```
 pytest
 ```
+In case pytest is not in your system's PATH, but is installed in your Python environment.
+```
+python -m pytest
+```
+
 
 6. **Commit Your Changes**:
 ```bash
@@ -105,6 +110,6 @@ git commit -m "Your detailed description of changes"
 
 7. **Push to Your Fork and Create a Pull Request**.
 
-Please ensure your code adheres to the project's coding standards and include tests for new features.
+Please ensure your code adheres to the project's coding standards and includes tests for new features.
 
 
